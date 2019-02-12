@@ -1,0 +1,11 @@
+language: go
+go:
+  - "1"
+  - 1.x
+  - 1.7.x
+  - "1.11"
+  - 1.11.x
+  - 1.11.5
+  - stable
+  - master
+script: go version
